@@ -3,8 +3,8 @@ name: Docker Hub Upload CI
 on:
   push:
     branches:
-      - master
-
+      - main
+  workflow_dispatch:
 jobs:
   docker:
     runs-on: ubuntu-latest
